@@ -1,0 +1,44 @@
+{
+  "nodes":[
+    {
+      "key": "0.0",
+      "attributes": {
+        "x": 268.72385,
+        "y": 91.18155,
+        "size": 20,
+        "label": "Myriel",
+        "color": "#EAEAEA"
+      }
+    },
+    {
+      "key": "1.0",
+      "attributes": {
+        "x": 296.39902,
+        "y": 57.118374,
+        "size": 20,
+        "label": "Napoleon",
+        "color": "#EAEAEA"
+      }
+    },
+    {
+      "key": "2.0",
+      "attributes": {
+        "x": 248.45229,
+        "y": 52.22656,
+        "size": 20,
+        "label": "MlleBaptistine",
+        "color": "#EAEAEA"
+      }
+    }
+  ],
+  "edges":[
+    {
+      "key":"0",
+      "source":"1.0",
+      "target":"0.0",
+      "attributes":{
+        "size":1
+      }
+    }
+  ]
+}

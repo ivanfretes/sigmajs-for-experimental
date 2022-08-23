@@ -1,0 +1,37 @@
+{
+  "name": "sigmajs-for-experimental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "kotatsu serve  --typescript ./src/index.ts --public / ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanfretes/sigmajs-for-experimental.git"
+  },
+  "keywords": [
+    "sigmajs",
+    "graph-library",
+    "nodes",
+    "graph-visualization"
+  ],
+  "author": "Ivan Fretes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanfretes/sigmajs-for-experimental/issues"
+  },
+  "homepage": "https://github.com/ivanfretes/sigmajs-for-experimental#readme",
+  "dependencies": {
+    "graphology": "^0.24.1",
+    "graphology-layout-force": "^0.2.4",
+    "graphology-simple-path": "^0.2.0",
+    "graphology-types": "^0.24.4",
+    "sigma": "^2.3.1"
+  },
+  "devDependencies": {
+    "kotatsu": "^0.22.3",
+    "typescript": "^4.7.4"
+  }
+}
